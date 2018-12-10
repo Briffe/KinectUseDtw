@@ -56,16 +56,7 @@
             </Viewbox>
         </StackPanel>
         <TextBox Grid.Column="0" Grid.Row="3" FontSize="11" Name="dtwTextOutput" Margin="10,104.2,391.6,-67" Focusable="True" BorderThickness="0" Text="" TextAlignment="Left" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="230" VerticalScrollBarVisibility="Auto" IsReadOnly="True" Grid.ColumnSpan="2" Grid.RowSpan="2" />
-        <TextBlock Grid.Column="1" Grid.Row="3" FontSize="11" Name="helpText" Margin="332.2,141.2,-324.4,-62" Focusable="True" TextAlignment="Left" HorizontalAlignment="Center" VerticalAlignment="Top" Width="393" Height="188" Padding="10" TextWrapping="WrapWithOverflow" Grid.RowSpan="2">
-1. To start, step into frame and allow Kinect to track your skeleton<LineBreak/>
-2. Select a gesture you wish to record from the ComboBox<LineBreak/>
-3. Perform a gesture over 32 frames - watch the frame counter above<LineBreak/>
-4. Your gesture will be stored automatically and return to read mode<LineBreak/>
-5. Test your gesture. If you're unhappy, record the gesture again to overwrite<LineBreak/>
-6. Record some other gestures and test them<LineBreak/>
-7. Optionally save your gestures to file for future loading<LineBreak/>
-8. Improve this script, add your own gestures, share and enjoy Kinect!
-        </TextBlock>
+        
         <Label Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" Content="By Rhemyst and Rymix - kinectdtw.codeplex.com" Foreground="White" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" Height="16" FontSize="10" Padding="0" Margin="-1,123.8,0.6,-123">
             <Label.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
