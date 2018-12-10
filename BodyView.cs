@@ -255,6 +255,11 @@
             // Draw the joints
             foreach (JointType jointType in joints.Keys)
             {
+                // 如果是下半身的关节点则忽略
+                if (jointType == JointType.KneeLeft || jointType == JointType.AnkleLeft || jointType == JointType.FootLeft || jointType == JointType.KneeRight || jointType == JointType.AnkleRight || jointType == JointType.FootRight)
+                {
+                    continue;
+                }
                 Brush drawBrush = null;
 
                 TrackingState trackingState = joints[jointType].TrackingState;

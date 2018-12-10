@@ -647,11 +647,6 @@ namespace DTWGestureRecognition
                 this.bodyFrameReader.FrameArrived += SkeletonExtractSkeletonFrameReady;
                 Skeleton2DDataExtract.Skeleton2DdataCoordReady += this.NuiSkeleton2DdataCoordReady;
 
-
-
-
-
-
                 ////TODO 源代码 用于处理骨骼图像的操作
                 //this.sensor.SkeletonStream.Enable();
                 //// Create the drawing group we'll use for drawing  创建我们将用于绘图的绘图组
