@@ -54,7 +54,7 @@ namespace DTWGestureRecognition
         private const int Ignore = 2;
 
         /// <summary>/// How many skeleton frames to store in the _video buffer  要在_video缓冲区中存储多少个骨架帧/// </summary>
-        private const int BufferSize = 40;
+        private const int BufferSize = 32;
 
         /// <summary>/// The minumum number of frames in the _video buffer before we attempt to start matching gestures 在我们尝试开始匹配手势之前，视频缓冲区中的最小帧数/// </summary>
         private const int MinimumFrames = 6;
